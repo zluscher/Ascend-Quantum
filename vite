@@ -1,0 +1,14 @@
+# Create a new Vite React project
+npm create vite@latest ascend-quantum-frontend -- --template react
+
+# Navigate to the project
+cd ascend-quantum-frontend
+
+# Install base dependencies
+npm install
+
+# Install additional required packages
+npm install react-router-dom axios tailwindcss postcss autoprefixer framer-motion react-icons
+
+# Set up Tailwind CSS
+npx tailwindcss init -p
